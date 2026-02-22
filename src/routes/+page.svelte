@@ -1,15 +1,5 @@
 <script lang="ts">
-  import {
-    Navbar,
-    NavBrand,
-    NavLi,
-    NavUl,
-    NavHamburger,
-    Card,
-    Heading,
-    P,
-    Button,
-  } from "flowbite-svelte";
+  import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from "flowbite-svelte";
   import Apps from "$lib/components/Apps.svelte";
   import About from "$lib/components/About.svelte";
   import Contact from "$lib/components/Contact.svelte";
@@ -66,3 +56,7 @@
 <Apps />
 <About />
 <Contact />
+
+<footer class="text-center text-blue-300 text-xs py-6">
+  <a href="/privacy/swiftsky" class="hover:text-blue-400 underline transition-colors">SwiftSky Privacy Policy</a>
+</footer>
