@@ -18,7 +18,7 @@
 
 <div class="sticky top-0 z-50" bind:this={navbar}>
   <Navbar fluid class="bg-blue-400 border-b border-blue-500 shadow-sm">
-    <NavBrand href="/">
+    <NavBrand href="{base}/">
       <div class="me-3 flex h-9 w-9 items-center justify-center rounded-xl bg-white shadow-sm">
         <span style="font-family: 'Space Grotesk', sans-serif;" class="text-sm font-bold text-blue-400">DF</span>
       </div>
